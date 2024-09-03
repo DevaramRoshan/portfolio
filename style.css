@@ -34,7 +34,7 @@
     margin: 0 15px 0 25px;
     height: 60px;
     width: 60px;
-    background-image: url(./me.jpg);
+    background-image: url(./images/me.jpg);
     background-size: cover;
     border-radius: 50%;
     border: 2px solid yellow;
@@ -57,7 +57,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(10, 1, 1, 0.95);
+    /* background-color: rgba(10, 1, 1, 0.95); */
+    background-image: url(./images/edubackground.avif);
+    background-size: cover;
     height: 800px;
     width: 100vw;
 }
@@ -70,7 +72,7 @@
     align-items: center;
     justify-content:flex-start;
     flex-direction: column;
-    background-image: url(./hero3.avif);
+    background-image: url(./images/hero3.avif);
     background-size: cover;
 }
 .content h2,p{
@@ -98,7 +100,7 @@
     align-items: center;
     justify-content:flex-start;
     flex-direction: column;
-    background-image: url(./contact.avif);
+    background-image: url(./images/contact.avif);
     background-size: cover;
 }
 .Contact h2,a{
@@ -110,7 +112,7 @@
     text-decoration: none;
 }
 .projectDiv{
-    background-image: url(./project_background3.avif);
+    background-image: url(./images/edubackground.avif);
     background-size: cover;
     height: 800px;
     width: 100vw;
